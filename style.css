@@ -1,0 +1,147 @@
+body{
+	margin : 0;
+}
+
+form h1{
+	color: #087f23;
+	font-size: 50px;
+	font-family: cursive;
+	text-align: center;
+}
+
+form{
+	width: 1140px;
+	margin: auto;
+	overflow: auto;
+	height: 100vh;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+form div{
+	display: grid;
+	grid-template-columns: 70px 1fr;
+	grid-gap: 10px;
+	margin: 20px 0; 
+}
+
+form div input,form div textarea{
+	border: 1px solid #888b8b;
+	background-color: #c8c8c8;
+	border-radius: 3px;
+	outline: #c8c8c8;
+}
+
+form div input.error, form div textarea.error{
+	border: 1px inset #ff0000;
+	background-color: rgba(255, 0, 0, 0.1);
+}
+
+form div label.error{
+	color:red;
+}
+
+form button, section button{
+	display: block;
+	margin: auto;
+	border: 1px outset #c8c8c8;
+	background-color: #c8c8c8;
+	padding: 10px;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	outline: none;
+}
+
+form button:hover, section button:hover{
+	background-color: #888b8b;
+}
+
+form button:active, section button:active{
+	background-color: #545756;
+	box-shadow: none;
+	outline: none;
+}
+
+body,header{
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: #fffae9;
+}
+
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 80%;
+	height: 100px;
+}
+
+nav,footer{
+    color: #fffae9;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #087f23;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav{
+	border-radius: 10px;
+	height: 30px;
+}
+
+nav a{
+    padding-right: 20px;
+    color: #fffae9;
+    text-decoration: none;
+}
+
+#pres_asso{
+	margin: 10px;
+	background-image: url(./images/im.jpg);
+}
+
+#pres_fondateurs, section article{
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+#events article{
+	border: none;
+	background-image: none;
+	
+}
+
+section article{
+	border: 1px solid #087f23;
+	border-radius: 15px;
+	padding : 10px;
+	margin: 10px;
+}
+
+#pres_fondateurs img, section article img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+}
+
+
+section article{
+	background-image: url(./images/im.jpg);
+}
+
+h2{
+	font-family: cursive;
+	font-size: 40px;
+	color: #087f23;
+	text-align: center;
+}
+
+
+footer{
+	margin-top: 10px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
